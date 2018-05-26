@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import {Button} from 'react-native';
-import {createStackNavigator, createDrawerNavigator} from 'react-navigation';
+import {createStackNavigator, createDrawerNavigator, NavigationActions} from 'react-navigation';
 
 //Route
 import HomePage from '../page/home/home-component.js';
+import DetailPage from '../page/detail/detail-component.js';
 
 const topDrawer = createDrawerNavigator({
-    Home: {screen: HomePage}
+    Home: {screen: HomePage},
+    Detail: {screen: DetailPage}
 },{
     initialRouteName: 'Home',
 });
@@ -18,7 +20,7 @@ const AppNavigator = createStackNavigator({
         headerLeft: 
             <Button 
                 onPress={()=>{
-                    navigation.navigate('DrawerToggle');
+                    navigation.navigate('DrawerOpen');
                 }}
                 title="Menu"
             />
