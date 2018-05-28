@@ -4,163 +4,217 @@
         "number": "0871623812631263",
         "name": "Joel",
         "title": "Co-Founder, CEO",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png",
+        "sex": "Male",
+        "age": "30"
       },
       {
         "number": "073912374921434",
         "name": "Andrew",
         "title": "Senior Engineer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/3e32471b9b38c03d20d0d7fcbb334961.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/3e32471b9b38c03d20d0d7fcbb334961.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "021374821748921721",
         "name": "Carolyn",
         "title": "Chief Customer Officer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/8b176e7a5f4d24b1ecdf1d47109cbcb2.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/8b176e7a5f4d24b1ecdf1d47109cbcb2.jpg",
+        "sex": "Female",
+        "age": "28"
       },
       {
         "number": "02137492179214791234",
         "name": "Åsa",
         "title": "Director of Customer Advocacy",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/82e975de88e000313cf1e61f09473ded.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/82e975de88e000313cf1e61f09473ded.jpg",
+        "sex": "Female",
+        "age": "24"
       },
       {
         "number": "0213478921749274",
         "name": "Colin",
         "title": "Staff Engineer & Happiness Eng Lead",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/50c1eef27efeef323900002a/53f0d656f42150b612f33aa46360e2ea.png"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/50c1eef27efeef323900002a/53f0d656f42150b612f33aa46360e2ea.png",
+        "sex": "Male",
+        "age": "32"
       },
       {
         "number": "02137447129321472",
         "name": "Adam",
         "title": "Tech Hero",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/cc01a443e8c1a0ca2b5cc0210c702cb2.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/cc01a443e8c1a0ca2b5cc0210c702cb2.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0238421784912374",
         "name": "Daniel",
         "title": "Customer Advocate",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/7548c7fecb773a35be20fa964954c87e.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/7548c7fecb773a35be20fa964954c87e.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "02374818472319472",
         "name": "Courtney",
         "title": "Director of People",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/c26fcfa9fff132782557e79272d81d90.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/c26fcfa9fff132782557e79272d81d90.jpg",
+        "sex": "Female",
+        "age": "28"
       },
       {
         "number": "0234789217492174423",
         "name": "Steven",
         "title": "Staff Engineer & Systems Lead",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/2764a8a939e80f193ce36f3cda041846.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/2764a8a939e80f193ce36f3cda041846.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "023803124921374",
         "name": "Dan",
         "title": "Director of Engineering & Systems",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/e03a7ce7934ad810daffbbe6062043ce.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/e03a7ce7934ad810daffbbe6062043ce.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "02347921947124",
         "name": "Kevan",
         "title": "Director of Marketing",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/ff23d587584f6714f8fb600b6d505f42.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/ff23d587584f6714f8fb600b6d505f42.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0213840214214124",
         "name": "Dave",
         "title": "Customer Advocate",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/af3817affd4f89c97476a42f917c523b.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/af3817affd4f89c97476a42f917c523b.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "02349214932142",
         "name": "Nicole",
         "title": "People Engagement Manager",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/56a7f72e31674e0481b7587bf70d91b8.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/56a7f72e31674e0481b7587bf70d91b8.jpg",
+        "sex": "Female",
+        "age": "28"
       },
       {
         "number": "0231794721947214",
         "name": "Octavio",
         "title": "Customer Advocate",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/6772e8d2e043c2eebf2842185de7be65.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/6772e8d2e043c2eebf2842185de7be65.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0213849217492142",
         "name": "Michael",
         "title": "Data Lead",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/48844f2dbe1705479d55c31efac8ef85.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/48844f2dbe1705479d55c31efac8ef85.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "012342171213232142",
         "name": "Tom",
         "title": "Product Manager",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/527f2c66e6bda0af1100001d/83256188c3a59bfa51013451bc33841a.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/527f2c66e6bda0af1100001d/83256188c3a59bfa51013451bc33841a.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "021094372194712",
         "name": "Mike",
         "title": "Senior Engineer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/50e37b8e1346af5841000006/ae1c363599dfb3dbe982a867f91500c1.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/50e37b8e1346af5841000006/ae1c363599dfb3dbe982a867f91500c1.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0238042719471234",
         "name": "José",
         "title": "Senior Engineer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/4fb2af19402f0b5a66000061/f1a2c538b9906ad26408e10d760672ae.png"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/4fb2af19402f0b5a66000061/f1a2c538b9906ad26408e10d760672ae.png",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "02183042142",
         "name": "Thomas",
         "title": "Product Designer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/58e9bb8dfc89bb364f7f87bb41abc466.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/58e9bb8dfc89bb364f7f87bb41abc466.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0209813492174",
         "name": "Eric",
         "title": "Software Engineer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/5291472334a27ba10b0000de/b1426f890cb2e93d1ec7188e94b36cf0.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/5291472334a27ba10b0000de/b1426f890cb2e93d1ec7188e94b36cf0.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0291837492147",
         "name": "Philippe",
         "title": "Software Engineer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/543fa321d1a3122967f7c525/592213b15360dbc6e151d40e1bd315de.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/543fa321d1a3122967f7c525/592213b15360dbc6e151d40e1bd315de.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "020189349217421",
         "name": "Max",
         "title": "Product Manager Growth",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/540c87ec99f817bd658ab5d0/623694d1784b9c898d87cc2517357d62.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/540c87ec99f817bd658ab5d0/623694d1784b9c898d87cc2517357d62.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0218934798217412",
         "name": "Dave",
         "title": "Product Design Lead",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/4f65cb5f512f7e193f00008e/4d9a70242d29af0453b07e3a4f6418bf.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/4f65cb5f512f7e193f00008e/4d9a70242d29af0453b07e3a4f6418bf.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "012374981274712",
         "name": "Julian",
         "title": "Data Analyst",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/545ae0872562737172231098/a70844a2daac74d1d79d9299390ad172.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/545ae0872562737172231098/a70844a2daac74d1d79d9299390ad172.jpg",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0128734921740",
         "name": "Danny",
         "title": "Customer Advocate",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/5538c8d542ccf87433d10cbc/b4694a36210d35c1b865cae9a5215c93.png"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/5538c8d542ccf87433d10cbc/b4694a36210d35c1b865cae9a5215c93.png",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "0127349382148214",
         "name": "Philippe",
         "title": "Software Engineer",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/4f26d903512f7e4261000004/ccf54a506a8befac538e682e99ea0a0c.png"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/4f26d903512f7e4261000004/ccf54a506a8befac538e682e99ea0a0c.png",
+        "sex": "Male",
+        "age": "28"
       },
       {
         "number": "01273491287",
         "name": "Steve",
         "title": "Software Engineer (UI Developer)",
-        "avatar": "https://buffer-uploads.s3.amazonaws.com/5543c1ca570a0327191e0ad2/55548cd354506952ef99caf08af55b28.jpg"
+        "avatar": "https://buffer-uploads.s3.amazonaws.com/5543c1ca570a0327191e0ad2/55548cd354506952ef99caf08af55b28.jpg",
+        "sex": "Male",
+        "age": "28"
       }
     ]
   }

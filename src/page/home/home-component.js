@@ -28,7 +28,7 @@ class HomePage extends Component{
   }
 
   render() {
-    const {customerData} = this.props;
+    const {customerData, navigation} = this.props;
     return (
         <View style={styles.container}>
 
@@ -48,7 +48,9 @@ class HomePage extends Component{
                         flexDirection: 'row'
                       }}
                       onPress={()=>{
-                        console.log("DI PENCET ID ==", i);
+                        navigation.navigate("Detail", {
+                          customer: item
+                        });
                       }}
                     >
                       <Image
@@ -58,7 +60,7 @@ class HomePage extends Component{
                       <View style={{marginLeft: 20}}>
                         <Text>{item.number}</Text>
                         <Text>{item.name}</Text>
-                        <Text>{item.title}</Text>
+                        {/*<Text>{item.title}</Text>*/}
                       </View>
                     </TouchableOpacity>
                   );

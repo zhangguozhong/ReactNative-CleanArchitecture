@@ -7,8 +7,22 @@ import HomePage from '../page/home/home-component.js';
 import DetailPage from '../page/detail/detail-component.js';
 
 const topDrawer = createDrawerNavigator({
-    Home: {screen: HomePage},
-    Detail: {screen: DetailPage}
+    Home: {
+        screen: HomePage,
+    },
+    Detail: {
+        screen: DetailPage,
+        navigationOptions:{
+            headerTitle: "Detail Customer",
+            headerRight: (
+            <Button
+                onPress={() => alert('This is a button!')}
+                title="Back"
+                color="black"
+            />
+            )
+        }
+    }
 },{
     initialRouteName: 'Home',
 });
@@ -16,7 +30,7 @@ const topDrawer = createDrawerNavigator({
 const AppNavigator = createStackNavigator({
     Drawer: {screen: topDrawer},
 },{
-    navigationOptions: ({navigation})=>({
+    /*navigationOptions: ({navigation})=>({
         headerLeft: 
             <Button 
                 onPress={()=>{
@@ -24,7 +38,7 @@ const AppNavigator = createStackNavigator({
                 }}
                 title="Menu"
             />
-    })
+    })*/
 })
 
 export default class Navigator extends Component {
