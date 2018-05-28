@@ -3,26 +3,68 @@ import {
   StyleSheet,
   Text,
   View,
+  ScrollView,
+  TouchableOpacity,
+  Dimensions,
+  Image
 } from 'react-native';
 import HomePresenter from './home-presenter';
 import Binder from '../../common/binder.js';
 import {connect} from 'react-redux';
+const windowWidth = Dimensions.get('window').width;
 
 class HomePage extends Component{
 
-  static navigationOptions = {
-    title: 'Home',
-  };
+  constructor(props){
+    super(props);
+    this.state = this.props.getInitialState();
+  }
+  //static navigationOptions = {
+  //  title: 'Home',
+  //};
+
+  componentWillMount(){
+    this.props.loadDefaultData();
+  }
 
   render() {
-
+    const {customerData} = this.props;
     return (
         <View style={styles.container}>
 
           <View style={styles.subContainer}>
-
-            <Text>Home</Text>
-
+            <ScrollView>
+              {
+                customerData.phone && customerData.phone.map((item, i)=>{
+                  return(
+                    <TouchableOpacity 
+                      key={i}
+                      style={{
+                        flex: 1,
+                        width: windowWidth,
+                        paddingVertical: 10,
+                        borderBottomColor: 'gray',
+                        borderBottomWidth: 1,
+                        flexDirection: 'row'
+                      }}
+                      onPress={()=>{
+                        console.log("DI PENCET ID ==", i);
+                      }}
+                    >
+                      <Image
+                        style={{width: 50, height: 50, borderRadius: 25, marginLeft: 20}}
+                        source={{uri: item.avatar}}
+                      />
+                      <View style={{marginLeft: 20}}>
+                        <Text>{item.number}</Text>
+                        <Text>{item.name}</Text>
+                        <Text>{item.title}</Text>
+                      </View>
+                    </TouchableOpacity>
+                  );
+                })
+              }
+            </ScrollView>
           </View>
 
         </View>

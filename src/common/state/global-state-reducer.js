@@ -2,20 +2,20 @@ import {InitialGlobalState} from './initial-global-state';
 
 export const globalStateReducer = (
     state = InitialGlobalState.generate(), action) => {
-
-  switch (action.type) {
-    case 'SIGNIN':
-      state.homeViewModel.signedIn = action.model.status ===
-          'submitted-success';
-      return {
-        ...state,
-        authModel: action.model,
-        signInViewModel: action.vm(action.model),
-      };
-    case 'INITSIGNIN':
-      return {...state, signInViewModel: action.vm()};
-    default:
-      return state;
-  }
+    
+    switch (action.type) {
+      case 'LOAD_CUSTOMER_DATA':
+        return {
+          ...state,
+          customerData: action.vm().data,
+        };
+      case 'LOAD_CUSTOMER_DETAIL':
+        return {
+          ...state, 
+          customerDetail: action.vm(),
+        };
+      default:
+        return state;
+    }
 
 };

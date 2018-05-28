@@ -5,7 +5,7 @@ export default class Binder{
   
       let booksPresenter = new presenterFunc(dispatch);
       plainObject.getInitialState = booksPresenter.getInitialState;
-      plainObject.load = booksPresenter.load;
+      plainObject.loadDefaultData = booksPresenter.loadDefaultData;
       plainObject.dispatch = booksPresenter.dispatch;
   
       maps.forEach((propString) => {
